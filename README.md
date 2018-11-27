@@ -1,4 +1,4 @@
 # zsh
 
-Scripts, functions, and aliases for zsh Edit
+Scripts, functions, and aliases for zsh.
 

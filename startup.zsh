@@ -1,6 +1,6 @@
-# Added my miniconda
-export PATH="/Users/rohan/miniconda2/bin:$PATH"
+if [[ $HOST=="Savitas-MacBook-Air.local" ]]; then
+   source /Applications/root_v6.08.00/bin/thisroot.sh
+fi
 
-export CVS_RSH=ssh
-export CVSROOT=:ext:rbhandar@cmscvs.cern.ch:/local/reps/CMSSW
-export PATH=${PATH}:/Users/Neumann/Code/root/bin
+# added by Anaconda2 4.4.0 installer
+export PATH="/Users/rohan/anaconda/bin:$PATH"
