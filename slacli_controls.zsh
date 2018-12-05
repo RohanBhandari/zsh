@@ -17,11 +17,3 @@ function sr {
 function ss {
 	 python ~/code/SlaCLI/slacli.py send "$@"
 }
-
-function ssj {
-	 python ~/code/SlaCLI/slacli.py send @jae "$@"
-}
-
-function srj {
-	 python ~/code/SlaCLI/slacli.py read @jae "$@"
-}

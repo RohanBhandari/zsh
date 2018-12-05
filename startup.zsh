@@ -1,6 +1,16 @@
-if [[ $HOST=="Savitas-MacBook-Air.local" ]]; then
-   source /Applications/root_v6.08.00/bin/thisroot.sh
+# added by Anaconda3 5.3.1 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/rohan/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/rohan/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/rohan/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/rohan/anaconda3/bin:$PATH"
+    fi
 fi
-
-# added by Anaconda2 4.4.0 installer
-export PATH="/Users/rohan/anaconda/bin:$PATH"
+unset __conda_setup
+# <<< conda init <<<
