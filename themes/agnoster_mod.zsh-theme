@@ -204,7 +204,7 @@ prompt_dir() {
 
 # Condaenv: current working conda environment
 prompt_condaenv() {
-  if [ "$CONDA_DEFAULT_ENV" != "base" ]; then
+  if [ "$CONDA_DEFAULT_ENV" != "base" ] && [ "$CONDA_DEFAULT_ENV" != "" ]; then
     prompt_segment cyan black "[$CONDA_DEFAULT_ENV]"
   fi
 }
