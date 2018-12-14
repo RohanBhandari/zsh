@@ -3,7 +3,7 @@
 ## Setup zsh environment
 #### 1. Initial setup
 * Check if zsh is installed with `zsh --version` and install if needed.
-* Set zsh to default shell with `chsh -s $(which zsh)`
+* Set zsh to default shell with `chsh -s $(which zsh)`.
 
 #### 2. Install oh-my-zsh
 ```
@@ -23,9 +23,9 @@ curl -L https://iterm2.com/shell_integration/zsh -o ~/.iterm2_shell_integration.
 echo "source ~/.iterm2_shell_integration.zsh" >> .zshrc
 ```
 
-### 5. Set Anaconda Variables (optional)
-* To avoid duplicate environment names in command prompt, turn off conda printing:
-`conda config --set changeps1 no`.
+#### 5. Set Anaconda Variables (optional)
+* To avoid duplicate environment names in command prompt, turn off conda printing:  
+`conda config --set changeps1 no`
 
-* Add conda setup to `.zshrc`:
+* Add conda setup to `.zshrc`:  
 `echo ". /home/rohan/.miniconda3/etc/profile.d/conda.sh" >> ~/.zshrc`
